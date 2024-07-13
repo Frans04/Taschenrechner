@@ -1,0 +1,48 @@
+# Einfacher Taschenrechner in Python
+# Dieses Programm führt grundlegende mathematische Operationen aus
+# Ein Anfänger hat dieses Programm geschrieben
+#############################################################################################################################################################################################################
+# Funktion zur Addition von zwei Zahlen
+def addiere(zahl1, zahl2):
+    return zahl1 + zahl2  # Rückgabe der Summe
+
+# Funktion zur Subtraktion von zwei Zahlen
+def subtrahiere(zahl1, zahl2):
+    return zahl1 - zahl2  # Rückgabe der Differenz
+
+# Funktion zur Multiplikation von zwei Zahlen
+def multipliziere(zahl1, zahl2):
+    return zahl1 * zahl2  # Rückgabe des Produkts
+
+# Funktion zur Division von zwei Zahlen
+def dividiere(zahl1, zahl2):
+    if zahl2 == 0:  # Überprüfung, ob der Divisor 0 ist
+        return "Fehler: Division durch Null"  # Rückgabe einer Fehlermeldung
+    return zahl1 / zahl2  # Rückgabe des Quotienten
+
+# Benutzer wird aufgefordert, eine Operation auszuwählen
+print("Wähle eine Operation:")
+print("1 für Addition")
+print("2 für Subtraktion")
+print("3 für Multiplikation")
+print("4 für Division")
+
+# Eingabe der Auswahl durch den Benutzer
+wahl = input("Gib deine Wahl ein (1/2/3/4): ")
+
+# Eingabe der Zahlen durch den Benutzer
+zahl1 = float(input("Gib die erste Zahl ein: "))
+zahl2 = float(input("Gib die zweite Zahl ein: "))
+
+# Bedingung zur Überprüfung der Auswahl und Ausführung der entsprechenden Funktion
+if wahl == '1':  # Überprüfung, ob die Auswahl 1 ist
+    print("Ergebnis: ", addiere(zahl1, zahl2))  # Ausgabe des Ergebnisses der Addition
+elif wahl == '2':  # Überprüfung, ob die Auswahl 2 ist
+    print("Ergebnis: ", subtrahiere(zahl1, zahl2))  # Ausgabe des Ergebnisses der Subtraktion
+elif wahl == '3':  # Überprüfung, ob die Auswahl 3 ist
+    print("Ergebnis: ", multipliziere(zahl1, zahl2))  # Ausgabe des Ergebnisses der Multiplikation
+elif wahl == '4':  # Überprüfung, ob die Auswahl 4 ist
+    print("Ergebnis: ", dividiere(zahl1, zahl2))  # Ausgabe des Ergebnisses der Division
+else:
+    print("Ungültige Eingabe")  # Fehlermeldung bei ungültiger Auswahl
+##################################################################################################################################################################################################################
