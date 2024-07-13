@@ -1,6 +1,5 @@
-# Einfacher Taschenrechner in Python
+# Einfacher Taschenrechner in Python (Könnte Fehler beinhalten)
 # Dieses Programm führt grundlegende mathematische Operationen aus
-# Ein Anfänger hat dieses Programm geschrieben
 #############################################################################################################################################################################################################
 # Funktion zur Addition von zwei Zahlen
 def addiere(zahl1, zahl2):
@@ -16,7 +15,7 @@ def multipliziere(zahl1, zahl2):
 
 # Funktion zur Division von zwei Zahlen
 def dividiere(zahl1, zahl2):
-    if zahl2 == 0:  # Überprüfung, ob der Divisor 0 ist
+    if zahl2 == 0:  # Überprüfung, ob durch 0 geteilt wird
         return "Fehler: Division durch Null"  # Rückgabe einer Fehlermeldung
     return zahl1 / zahl2  # Rückgabe des Quotienten
 
@@ -46,4 +45,4 @@ elif wahl == '4':  # Überprüfung, ob die Auswahl 4 ist
 else:
     print("Ungültige Eingabe")  # Fehlermeldung bei ungültiger Auswahl
 ###########################################################################################################################################################
-#Skript geschrieben mithilfe von Online-Foren und YouTube-Tutorials
+#Skript geschrieben mit Hilfestellung aus dem Internet
