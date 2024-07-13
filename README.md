@@ -8,3 +8,5 @@ Der Benutzer gibt zwei Zahlen ein, auf die die gewählte Operation angewendet wi
 
 Das Programm führt die Operation durch und zeigt das Ergebnis an.
 
+#### Skript geschrieben mithilfe von Online-Foren und YouTube-Tutorials
+
