@@ -8,5 +8,4 @@ Sie geben zwei Zahlen ein, auf die die gewählte Operation angewendet wird.
 
 Das Programm führt die Operation durch und zeigt das Ergebnis an.
 
-#### Skript geschrieben mithilfe von Online-Foren und YouTube-Tutorials
-
+#### Hilfestellungen: Informationen aus dem Internet.
