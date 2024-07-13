@@ -45,4 +45,5 @@ elif wahl == '4':  # Überprüfung, ob die Auswahl 4 ist
     print("Ergebnis: ", dividiere(zahl1, zahl2))  # Ausgabe des Ergebnisses der Division
 else:
     print("Ungültige Eingabe")  # Fehlermeldung bei ungültiger Auswahl
-##################################################################################################################################################################################################################
+###########################################################################################################################################################
+#Skript geschrieben mithilfe von Online-Foren und YouTube-Tutorials
